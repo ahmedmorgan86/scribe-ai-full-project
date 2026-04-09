@@ -121,6 +121,3 @@ workers/        # Python sidecar services
   stylometry/   # Voice stylometric analysis
 ```
 
-## License
-
-By contributing, you agree that your contributions will be licensed under the MIT License.
