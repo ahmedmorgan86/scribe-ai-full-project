@@ -1,0 +1,287 @@
+[2026-04-09T10:46:57.407734] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T10:47:27.206937] [manual_831577] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T10:47:27.208503] [manual_831577] [BACKEND] [BACKEND_SUCCESS] Found 6 posts
+[2026-04-09T10:47:28.021965] [manual_831577] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T10:47:28.023152] [manual_831577] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T10:47:28.241740] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T10:47:28.647624] SUCCESS: Function get_best_times completed. args={"platform": "instagram", "region": "Middle East"}
+[2026-04-09T10:47:46.422726] [manual_831577] [BACKEND] [BACKEND_START] get_best_times platform=linkedin, region=Middle East
+[2026-04-09T10:47:46.423025] [manual_831577] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T10:47:47.724314] [manual_831577] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T10:47:47.726537] [manual_831577] [BACKEND] [BACKEND_SUCCESS] Found 6 posts
+[2026-04-09T10:47:48.492577] [manual_831577] [BACKEND] [BACKEND_START] generate_content_streaming (Arabic-First) for linkedin
+[2026-04-09T10:47:48.238579] SUCCESS: Function get_best_times completed. args={"platform": "linkedin", "region": "Middle East"}
+[2026-04-09T10:47:49.138561] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T10:47:55.931801] [manual_831577] [BACKEND] [BACKEND_STEP] Arabic content generated successfully
+[2026-04-09T10:47:55.952726] [manual_831577] [BACKEND] [BACKEND_SUCCESS] Generation complete. Saved as post 8
+[2026-04-09T10:47:55.961774] STREAM COMPLETE: Function generate_content_streaming args={"prompt": "\u0646\u0635\u0627\u0626\u062d \u0644\u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a \u0641\u064a \u0628\u064a\u0626\u0629 \u0627\u0644\u0639\u0645\u0644 \u0627\u0644\u062a\u0642\u0646\u064a\u0629", "platform": "linkedin", "formula": "local", "dialect": "gulf"}
+[2026-04-09T10:48:04.207234] [BACKEND] [BACKEND_START] generate_content_streaming (Arabic-First) for linkedin
+[2026-04-09T10:48:09.412888] [BACKEND] [BACKEND_STEP] Arabic content generated successfully
+[2026-04-09T10:48:09.427484] [BACKEND] [BACKEND_SUCCESS] Generation complete. Saved as post 9
+[2026-04-09T10:48:09.434229] STREAM COMPLETE: Function generate_content_streaming args={"prompt": "\u0646\u0635\u0627\u0626\u062d \u0644\u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a \u0641\u064a \u0628\u064a\u0626\u0629 \u0627\u0644\u0639\u0645\u0644 \u0627\u0644\u062a\u0642\u0646\u064a\u0629", "dialect": "gulf", "platform": "linkedin", "formula": "local"}
+[2026-04-09T10:49:12.622505] [tool_1775731745_qju1] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T10:49:12.622662] [tool_1775731745_qju1] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T10:49:12.799719] [tool_1775731745_qju1] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T10:49:12.818177] [tool_1775731745_qju1] [BACKEND] [BACKEND_SUCCESS] Found 8 posts
+[2026-04-09T10:49:13.243792] SUCCESS: Function get_best_times completed. args={"platform": "instagram", "region": "Middle East"}
+[2026-04-09T10:49:13.433483] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T10:49:46.390869] [BACKEND] [BACKEND_START] generate_content_streaming (Arabic-First) for LinkedIn
+[2026-04-09T10:49:51.420720] [BACKEND] [BACKEND_STEP] Arabic content generated successfully
+[2026-04-09T10:49:51.431352] [BACKEND] [BACKEND_SUCCESS] Generation complete. Saved as post 10
+[2026-04-09T10:49:51.435851] STREAM COMPLETE: Function generate_content_streaming args={"dialect": "Gulf", "platform": "LinkedIn", "formula": "Local Dialects", "prompt": "\u0643\u064a\u0641 \u062a\u0628\u062f\u0623 \u0641\u064a \u0627\u0644\u0639\u0645\u0644 \u0627\u0644\u062d\u0631 \u0641\u064a 2026"}
+[2026-04-09T10:50:26.021039] [manual_831758] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T10:50:26.022314] [manual_831758] [BACKEND] [BACKEND_SUCCESS] Found 9 posts
+[2026-04-09T10:50:26.086394] [manual_831758] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T10:50:26.086625] [manual_831758] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T10:50:26.538247] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T10:50:26.605730] SUCCESS: Function get_best_times completed. args={"platform": "instagram", "region": "Middle East"}
+[2026-04-09T10:51:05.322821] [manual_831758] [BACKEND] [BACKEND_START] generate_content_streaming (Arabic-First) for instagram
+[2026-04-09T10:51:10.546231] [manual_831758] [BACKEND] [BACKEND_STEP] Arabic content generated successfully
+[2026-04-09T10:51:10.556717] [manual_831758] [BACKEND] [BACKEND_SUCCESS] Generation complete. Saved as post 11
+[2026-04-09T10:51:10.561338] STREAM COMPLETE: Function generate_content_streaming args={"prompt": "\u0637\u0631\u064a\u0642\u0629 \u0627\u0644\u0643\u0633\u0628 \u0627\u0644\u0641\u0648\u0631\u064a \u0645\u0646 \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a ", "platform": "instagram", "formula": "educational", "dialect": "egyptian"}
+[2026-04-09T10:55:33.109445] [tool_1775732124_ex4f] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T10:55:33.110894] [tool_1775732124_ex4f] [BACKEND] [BACKEND_SUCCESS] Found 10 posts
+[2026-04-09T10:55:33.121081] [tool_1775732124_ex4f] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T10:55:33.121315] [tool_1775732124_ex4f] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T10:55:33.707544] SUCCESS: Function get_best_times completed. args={"platform": "instagram", "region": "Middle East"}
+[2026-04-09T10:55:42.394336] [run_1775732136_l2c3] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T10:55:42.395818] [run_1775732136_l2c3] [BACKEND] [BACKEND_SUCCESS] Found 10 posts
+[2026-04-09T10:55:42.504051] [run_1775732136_l2c3] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T10:55:42.504261] [run_1775732136_l2c3] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T10:55:42.935059] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T10:55:42.991618] SUCCESS: Function get_best_times completed. args={"platform": "instagram", "region": "Middle East"}
+[2026-04-09T10:56:12.012389] [manual_832101] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T10:56:12.085111] [manual_832101] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T10:56:12.608682] [manual_832101] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T10:56:12.610389] [manual_832101] [BACKEND] [BACKEND_SUCCESS] Found 10 posts
+[2026-04-09T10:56:13.313941] SUCCESS: Function get_best_times completed. args={"platform": "instagram", "region": "Middle East"}
+[2026-04-09T10:56:13.611828] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T11:00:00.999221] [run_1775732136_l2c3] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T11:00:01.000727] [run_1775732136_l2c3] [BACKEND] [BACKEND_SUCCESS] Found 10 posts
+[2026-04-09T11:00:01.119784] [run_1775732136_l2c3] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T11:00:01.119984] [run_1775732136_l2c3] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T11:00:01.630092] SUCCESS: Function get_best_times completed. args={"platform": "instagram", "region": "Middle East"}
+[2026-04-09T11:00:01.658087] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T11:00:10.513628] [run_1775732136_l2c3] [BACKEND] [BACKEND_START] get_posts with limit=50
+[2026-04-09T11:00:10.515650] [run_1775732136_l2c3] [BACKEND] [BACKEND_SUCCESS] Found 10 posts
+[2026-04-09T11:00:10.854311] SUCCESS: Function get_posts completed. args={"limit": 50}
+[2026-04-09T11:00:21.504993] [run_1775732136_l2c3] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T11:00:21.509406] [run_1775732136_l2c3] [BACKEND] [BACKEND_SUCCESS] Found 10 posts
+[2026-04-09T11:00:21.790071] [run_1775732136_l2c3] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T11:00:21.790272] [run_1775732136_l2c3] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T11:00:22.242609] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T11:00:22.360954] SUCCESS: Function get_best_times completed. args={"platform": "instagram", "region": "Middle East"}
+[2026-04-09T11:01:16.889304] [run_1775732136_l2c3] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T11:01:16.891643] [run_1775732136_l2c3] [BACKEND] [BACKEND_SUCCESS] Found 10 posts
+[2026-04-09T11:01:17.385746] [run_1775732136_l2c3] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T11:01:17.386221] [run_1775732136_l2c3] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T11:01:17.564580] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T11:01:17.843930] SUCCESS: Function get_best_times completed. args={"platform": "instagram", "region": "Middle East"}
+[2026-04-09T11:01:36.328166] [run_1775732136_l2c3] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T11:01:36.333337] [run_1775732136_l2c3] [BACKEND] [BACKEND_SUCCESS] Found 10 posts
+[2026-04-09T11:01:36.959054] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T11:01:37.768904] [run_1775732136_l2c3] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T11:01:37.769127] [run_1775732136_l2c3] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T11:01:38.084160] SUCCESS: Function get_best_times completed. args={"platform": "instagram", "region": "Middle East"}
+[2026-04-09T11:01:50.718567] [run_1775732136_l2c3] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T11:01:50.719813] [run_1775732136_l2c3] [BACKEND] [BACKEND_SUCCESS] Found 10 posts
+[2026-04-09T11:01:51.318042] [run_1775732136_l2c3] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T11:01:51.318475] [run_1775732136_l2c3] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T11:01:51.942887] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T11:01:52.221762] SUCCESS: Function get_best_times completed. args={"platform": "instagram", "region": "Middle East"}
+[2026-04-09T11:01:53.363702] [run_1775732136_l2c3] [BACKEND] [BACKEND_START] get_posts with limit=50
+[2026-04-09T11:01:53.364922] [run_1775732136_l2c3] [BACKEND] [BACKEND_SUCCESS] Found 10 posts
+[2026-04-09T11:01:53.714529] SUCCESS: Function get_posts completed. args={"limit": 50}
+[2026-04-09T11:02:00.007113] [run_1775732136_l2c3] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T11:02:00.007497] [run_1775732136_l2c3] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T11:02:00.084579] [run_1775732136_l2c3] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T11:02:00.086874] [run_1775732136_l2c3] [BACKEND] [BACKEND_SUCCESS] Found 10 posts
+[2026-04-09T11:02:00.624720] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T11:02:32.297554] [manual_832483] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T11:02:32.297778] [manual_832483] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T11:02:32.599165] [manual_832483] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T11:02:32.601273] [manual_832483] [BACKEND] [BACKEND_SUCCESS] Found 10 posts
+[2026-04-09T11:02:33.065996] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T11:07:30.303942] [run_1775732843_mie6] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T11:07:30.306714] [run_1775732843_mie6] [BACKEND] [BACKEND_SUCCESS] Found 10 posts
+[2026-04-09T11:07:30.335164] [run_1775732843_mie6] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T11:07:30.336056] [run_1775732843_mie6] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T11:07:30.921652] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T11:07:30.959182] SUCCESS: Function get_best_times completed. args={"platform": "instagram", "region": "Middle East"}
+[2026-04-09T11:07:45.512153] [manual_832793] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T11:07:45.514971] [manual_832793] [BACKEND] [BACKEND_SUCCESS] Found 10 posts
+[2026-04-09T11:07:45.590999] [manual_832793] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T11:07:45.591527] [manual_832793] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T11:07:46.611688] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T11:07:46.802992] SUCCESS: Function get_best_times completed. args={"platform": "instagram", "region": "Middle East"}
+[2026-04-09T11:09:12.803232] [run_1775732944_w01c] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T11:09:12.804721] [run_1775732944_w01c] [BACKEND] [BACKEND_SUCCESS] Found 10 posts
+[2026-04-09T11:09:12.891373] [run_1775732944_w01c] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T11:09:12.891950] [run_1775732944_w01c] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T11:09:13.871768] SUCCESS: Function get_best_times completed. args={"platform": "instagram", "region": "Middle East"}
+[2026-04-09T11:09:26.629867] [manual_832894] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T11:09:26.630540] [manual_832894] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T11:09:26.786028] [manual_832894] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T11:09:26.793514] [manual_832894] [BACKEND] [BACKEND_SUCCESS] Found 10 posts
+[2026-04-09T11:09:28.120957] SUCCESS: Function get_best_times completed. args={"platform": "instagram", "region": "Middle East"}
+[2026-04-09T11:09:28.227150] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T11:09:45.489901] [manual_832894] [BACKEND] [BACKEND_START] generate_content_streaming (Arabic-First) for instagram
+[2026-04-09T11:09:52.395066] [manual_832894] [BACKEND] [BACKEND_STEP] Arabic content generated successfully
+[2026-04-09T11:09:52.413099] [manual_832894] [BACKEND] [BACKEND_SUCCESS] Generation complete. Saved as post 12
+[2026-04-09T11:09:52.422713] STREAM COMPLETE: Function generate_content_streaming args={"prompt": "\u0646\u0635\u0627\u0626\u062d \u0644\u062a\u0637\u0648\u064a\u0631 \u0627\u0644\u0630\u0627\u062a", "platform": "instagram", "formula": "local", "dialect": "gulf"}
+[2026-04-09T11:11:07.737813] [cbf_1775733065_umiq] [BACKEND] [BACKEND_START] get_posts with limit=10
+[2026-04-09T11:11:07.739123] [cbf_1775733065_umiq] [BACKEND] [BACKEND_SUCCESS] Found 3 posts
+[2026-04-09T11:11:12.597527] [BACKEND] [BACKEND_START] generate_content_streaming (Arabic-Only Enforcement) for Instagram
+[2026-04-09T11:11:18.823206] [BACKEND] [BACKEND_STEP] Arabic content generated successfully
+[2026-04-09T11:11:18.833674] [BACKEND] [BACKEND_SUCCESS] Generation complete. Saved as post 19
+[2026-04-09T11:11:18.838119] STREAM COMPLETE: Function generate_content_streaming args={"formula": "PAS (Problem-Agitate-Solve)", "platform": "Instagram", "prompt": "\u0623\u0647\u0645\u064a\u0629 \u0627\u0644\u062a\u0633\u0648\u064a\u0642 \u0627\u0644\u0639\u0642\u0627\u0631\u064a \u0641\u064a \u062f\u0628\u064a", "dialect": "Gulf"}
+[2026-04-09T11:11:22.897574] [cbf_1775733081_dlga] [BACKEND] [BACKEND_START] get_best_times platform=X (Twitter), region=Middle East
+[2026-04-09T11:11:22.897757] [cbf_1775733081_dlga] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T11:12:36.937895] [tool_1775733147_nz2e] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T11:12:36.939205] [tool_1775733147_nz2e] [BACKEND] [BACKEND_SUCCESS] Found 3 posts
+[2026-04-09T11:12:37.199895] [tool_1775733147_nz2e] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T11:12:37.200138] [tool_1775733147_nz2e] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T11:12:37.541319] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T11:12:37.656760] SUCCESS: Function get_best_times completed. args={"platform": "instagram", "region": "Middle East"}
+[2026-04-09T11:12:48.528590] [run_1775733162_bup8] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T11:12:48.530129] [run_1775733162_bup8] [BACKEND] [BACKEND_SUCCESS] Found 3 posts
+[2026-04-09T11:12:48.786638] [run_1775733162_bup8] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T11:12:48.786868] [run_1775733162_bup8] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T11:12:49.207257] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T11:12:49.358820] SUCCESS: Function get_best_times completed. args={"platform": "instagram", "region": "Middle East"}
+[2026-04-09T11:13:09.789513] [manual_833115] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T11:13:09.791998] [manual_833115] [BACKEND] [BACKEND_SUCCESS] Found 3 posts
+[2026-04-09T11:13:10.614445] [manual_833115] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T11:13:10.614668] [manual_833115] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T11:13:11.622819] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T11:13:12.327228] SUCCESS: Function get_best_times completed. args={"platform": "instagram", "region": "Middle East"}
+[2026-04-09T11:14:38.716740] [run_1775733269_i170] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T11:14:38.718559] [run_1775733269_i170] [BACKEND] [BACKEND_SUCCESS] Found 3 posts
+[2026-04-09T11:14:40.005035] [run_1775733269_i170] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T11:14:40.005285] [run_1775733269_i170] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T11:14:40.034394] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T11:14:41.104139] SUCCESS: Function get_best_times completed. args={"platform": "instagram", "region": "Middle East"}
+[2026-04-09T11:14:52.404245] [manual_833219] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T11:14:52.409378] [manual_833219] [BACKEND] [BACKEND_SUCCESS] Found 3 posts
+[2026-04-09T11:14:52.512316] [manual_833219] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T11:14:52.584945] [manual_833219] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T11:14:53.906328] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T11:23:27.421416] [run_1775733269_i170] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T11:23:27.424088] [run_1775733269_i170] [BACKEND] [BACKEND_SUCCESS] Found 3 posts
+[2026-04-09T11:23:27.716850] [run_1775733269_i170] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T11:23:27.717101] [run_1775733269_i170] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T11:23:28.331558] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T11:23:28.396772] SUCCESS: Function get_best_times completed. args={"platform": "instagram", "region": "Middle East"}
+[2026-04-09T11:30:19.522575] [run_1775733269_i170] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T11:30:19.523902] [run_1775733269_i170] [BACKEND] [BACKEND_SUCCESS] Found 3 posts
+[2026-04-09T11:30:19.602280] [run_1775733269_i170] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T11:30:19.602680] [run_1775733269_i170] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T11:30:20.121742] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T11:30:57.076298] [run_1775733269_i170] [BACKEND] [BACKEND_START] get_posts with limit=50
+[2026-04-09T11:30:57.077718] [run_1775733269_i170] [BACKEND] [BACKEND_SUCCESS] Found 3 posts
+[2026-04-09T11:30:57.423883] SUCCESS: Function get_posts completed. args={"limit": 50}
+[2026-04-09T11:31:12.411670] [run_1775733269_i170] [BACKEND] [BACKEND_START] get_best_times platform=instagram, region=Middle East
+[2026-04-09T11:31:12.411911] [run_1775733269_i170] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T11:31:12.591507] [run_1775733269_i170] [BACKEND] [BACKEND_START] get_posts with limit=20
+[2026-04-09T11:31:12.593369] [run_1775733269_i170] [BACKEND] [BACKEND_SUCCESS] Found 3 posts
+[2026-04-09T11:31:13.028353] SUCCESS: Function get_best_times completed. args={"platform": "instagram", "region": "Middle East"}
+[2026-04-09T11:31:13.088346] SUCCESS: Function get_posts completed. args={"limit": 20}
+[2026-04-09T11:39:31.010418] [manual_834699] [BACKEND] [BACKEND_START] get_posts with limit=5
+[2026-04-09T11:39:31.011832] [manual_834699] [BACKEND] [BACKEND_SUCCESS] Found 3 posts
+[2026-04-09T11:39:31.805033] SUCCESS: Function get_posts completed. args={"limit": 5}
+[2026-04-09T11:41:12.031749] [tool_1775734860_regh] [BACKEND] [BACKEND_START] get_posts with limit=5
+[2026-04-09T11:41:12.085638] [tool_1775734860_regh] [BACKEND] [BACKEND_SUCCESS] Found 3 posts
+[2026-04-09T11:41:13.263987] [manual_834798] [BACKEND] [BACKEND_START] get_posts with limit=5
+[2026-04-09T11:41:13.286008] [manual_834798] [BACKEND] [BACKEND_SUCCESS] Found 3 posts
+[2026-04-09T11:41:13.472422] SUCCESS: Function get_posts completed. args={"limit": 5}
+[2026-04-09T11:41:14.424085] [tool_1775734860_regh] [BACKEND] [BACKEND_START] get_posts with limit=100
+[2026-04-09T11:41:14.425723] [tool_1775734860_regh] [BACKEND] [BACKEND_SUCCESS] Found 3 posts
+[2026-04-09T11:41:14.009044] SUCCESS: Function get_posts completed. args={"limit": 5}
+[2026-04-09T11:41:14.836440] SUCCESS: Function get_posts completed. args={"limit": 100}
+[2026-04-09T11:42:33.576590] [run_1775734751_q1nf] [BACKEND] [BACKEND_START] get_posts with limit=5
+[2026-04-09T11:42:33.577949] [run_1775734751_q1nf] [BACKEND] [BACKEND_SUCCESS] Found 3 posts
+[2026-04-09T11:42:33.922539] SUCCESS: Function get_posts completed. args={"limit": 5}
+[2026-04-09T11:44:14.634202] [cbf_1775735051_ybgh] [BACKEND] [BACKEND_START] get_posts with limit=10
+[2026-04-09T11:44:14.635470] [cbf_1775735051_ybgh] [BACKEND] [BACKEND_SUCCESS] Found 0 posts
+[2026-04-09T11:44:14.807069] [cbf_1775735051_gcig] [BACKEND] [BACKEND_START] get_best_times platform=Instagram, region=Middle East
+[2026-04-09T11:44:14.807336] [cbf_1775735051_gcig] [BACKEND] [BACKEND_SUCCESS] Returned engagement schedule for Middle East
+[2026-04-09T11:44:19.852229] [BACKEND] [BACKEND_START] generate_content_streaming (Arabic-Only Enforcement) for Instagram
+[2026-04-09T11:44:33.247757] [BACKEND] [BACKEND_STEP] Arabic content generated successfully
+[2026-04-09T11:44:33.257245] [BACKEND] [BACKEND_SUCCESS] Generation complete. Saved as post 89
+[2026-04-09T11:44:33.261923] STREAM COMPLETE: Function generate_content_streaming args={"formula": "Storytelling", "platform": "Instagram", "prompt": "\u0641\u0648\u0627\u0626\u062f \u0634\u0631\u0628 \u0627\u0644\u0642\u0647\u0648\u0629 \u0641\u064a \u0627\u0644\u0635\u0628\u0627\u062d", "dialect": "Egyptian"}
+[2026-04-09T11:44:37.169067] [cbf_1775735075_rv1z] [BACKEND] [BACKEND_START] get_posts with limit=1
+[2026-04-09T11:44:37.170856] [cbf_1775735075_rv1z] [BACKEND] [BACKEND_SUCCESS] Found 0 posts
+[2026-04-09T11:44:50.713916] [cbf_1775735089_ftr0] [BACKEND] [BACKEND_START] get_posts with limit=10
+[2026-04-09T11:44:50.714972] [cbf_1775735089_ftr0] [BACKEND] [BACKEND_SUCCESS] Found 0 posts
+[2026-04-09T11:45:03.777993] [cbf_1775735101_9wky] [BACKEND] [BACKEND_START] get_posts with limit=10
+[2026-04-09T11:45:03.778741] [cbf_1775735101_9wky] [BACKEND] [BACKEND_SUCCESS] Found 0 posts
+[2026-04-09T11:45:41.417366] [manual_835071] [BACKEND] [BACKEND_START] get_posts with limit=5
+[2026-04-09T11:45:41.419299] [manual_835071] [BACKEND] [BACKEND_SUCCESS] Found 0 posts
+[2026-04-09T11:45:42.238152] SUCCESS: Function get_posts completed. args={"limit": 5}
+[2026-04-09T11:46:29.585716] [manual_835116] [BACKEND] [BACKEND_START] get_posts with limit=5
+[2026-04-09T11:46:29.587064] [manual_835116] [BACKEND] [BACKEND_SUCCESS] Found 0 posts
+[2026-04-09T11:46:30.149703] SUCCESS: Function get_posts completed. args={"limit": 5}
+[2026-04-09T11:47:05.703703] [manual_835153] [BACKEND] [BACKEND_START] get_posts with limit=5
+[2026-04-09T11:47:05.705851] [manual_835153] [BACKEND] [BACKEND_SUCCESS] Found 0 posts
+[2026-04-09T11:47:06.833653] SUCCESS: Function get_posts completed. args={"limit": 5}
+[2026-04-09T11:47:34.502223] [manual_835184] [BACKEND] [BACKEND_START] get_posts with limit=5
+[2026-04-09T11:47:34.503218] [manual_835184] [BACKEND] [BACKEND_SUCCESS] Found 0 posts
+[2026-04-09T11:47:35.134753] SUCCESS: Function get_posts completed. args={"limit": 5}
+[2026-04-09T11:47:43.235612] [manual_835071] [BACKEND] [BACKEND_START] generate_content_streaming (Arabic-Only Enforcement) for Instagram
+[2026-04-09T11:47:57.617521] [manual_835071] [BACKEND] [BACKEND_STEP] Arabic content generated successfully
+[2026-04-09T11:47:57.643285] [manual_835071] [BACKEND] [BACKEND_SUCCESS] Generation complete. Saved as post 90
+[2026-04-09T11:47:58.259625] STREAM COMPLETE: Function generate_content_streaming args={"prompt": "\u062e\u0637\u0629 \u062a\u0633\u0648\u064a\u0642\u064a\u0629 \u0644\u0634\u0631\u0643\u0629 \u062a\u0642\u0646\u064a\u0629 \u0641\u064a \u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629", "platform": "Instagram", "formula": "local", "dialect": "gulf"}
+[2026-04-09T11:50:34.786335] [manual_835364] [BACKEND] [BACKEND_START] get_posts with limit=5
+[2026-04-09T11:50:34.787491] [manual_835364] [BACKEND] [BACKEND_SUCCESS] Found 1 posts
+[2026-04-09T11:50:35.616395] SUCCESS: Function get_posts completed. args={"limit": 5}
+[2026-04-09T11:51:12.512246] [manual_835399] [BACKEND] [BACKEND_START] get_posts with limit=5
+[2026-04-09T11:51:12.513132] [manual_835399] [BACKEND] [BACKEND_SUCCESS] Found 1 posts
+[2026-04-09T11:51:13.722583] SUCCESS: Function get_posts completed. args={"limit": 5}
+[2026-04-09T11:52:12.690423] [manual_835364] [BACKEND] [BACKEND_START] generate_content_streaming (Arabic-Only Enforcement) for LinkedIn
+[2026-04-09T11:52:28.853218] [manual_835364] [BACKEND] [BACKEND_STEP] Arabic content generated successfully
+[2026-04-09T11:52:28.864113] [manual_835364] [BACKEND] [BACKEND_SUCCESS] Generation complete. Saved as post 91
+[2026-04-09T11:52:28.888177] STREAM COMPLETE: Function generate_content_streaming args={"prompt": "\u0643\u064a\u0641 \u062a\u0628\u062f\u0623 \u0641\u064a \u0627\u0644\u0627\u0633\u062a\u062b\u0645\u0627\u0631 \u0641\u064a \u0633\u0648\u0642 \u0627\u0644\u0623\u0633\u0647\u0645 \u0627\u0644\u0633\u0639\u0648\u062f\u064a \u0641\u064a 2026", "platform": "LinkedIn", "formula": "local", "dialect": "gulf"}
+[2026-04-09T11:52:46.141406] [manual_835364] [BACKEND] [BACKEND_START] get_posts with limit=100
+[2026-04-09T11:52:46.142393] [manual_835364] [BACKEND] [BACKEND_SUCCESS] Found 2 posts
+[2026-04-09T11:52:46.850637] SUCCESS: Function get_posts completed. args={"limit": 100}
+[2026-04-09T11:56:00.205066] [manual_835690] [BACKEND] [BACKEND_START] get_posts with limit=5
+[2026-04-09T11:56:00.209518] [manual_835690] [BACKEND] [BACKEND_SUCCESS] Found 2 posts
+[2026-04-09T11:56:01.016293] SUCCESS: Function get_posts completed. args={"limit": 5}
+[2026-04-09T11:56:35.291869] [manual_835722] [BACKEND] [BACKEND_START] get_posts with limit=5
+[2026-04-09T11:56:35.292818] [manual_835722] [BACKEND] [BACKEND_SUCCESS] Found 2 posts
+[2026-04-09T11:56:36.611775] SUCCESS: Function get_posts completed. args={"limit": 5}
+[2026-04-09T11:57:14.589154] [manual_835761] [BACKEND] [BACKEND_START] get_posts with limit=5
+[2026-04-09T11:57:14.593254] [manual_835761] [BACKEND] [BACKEND_SUCCESS] Found 2 posts
+[2026-04-09T11:57:15.139811] SUCCESS: Function get_posts completed. args={"limit": 5}
+[2026-04-09T11:59:56.031395] [manual_835913] [BACKEND] [BACKEND_START] get_posts with limit=5
+[2026-04-09T11:59:56.035477] [manual_835913] [BACKEND] [BACKEND_SUCCESS] Found 0 posts
+[2026-04-09T11:59:58.268597] SUCCESS: Function get_posts completed. args={"limit": 5}
+[2026-04-09T12:00:31.494188] [manual_835957] [BACKEND] [BACKEND_START] get_posts with limit=5
+[2026-04-09T12:00:31.496566] [manual_835957] [BACKEND] [BACKEND_SUCCESS] Found 0 posts
+[2026-04-09T12:00:36.306952] SUCCESS: Function get_posts completed. args={"limit": 5}
+[2026-04-09T12:01:55.296025] [manual_835913] [BACKEND] [BACKEND_START] generate_content_streaming (Arabic-Only Enforcement) for LinkedIn
+[2026-04-09T12:02:04.317585] [manual_835913] [BACKEND] [BACKEND_STEP] Arabic content generated successfully
+[2026-04-09T12:02:04.329691] [manual_835913] [BACKEND] [BACKEND_SUCCESS] Generation complete. Saved as post 1
+[2026-04-09T12:02:04.335616] STREAM COMPLETE: Function generate_content_streaming args={"prompt": "\u0642\u0635\u0629 \u0646\u062c\u0627\u062d \u0634\u0627\u0628 \u0645\u0635\u0631\u064a \u0628\u062f\u0623 \u0645\u0634\u0631\u0648\u0639 \u062a\u062c\u0627\u0631\u0629 \u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a\u0629 \u0628\u0631\u0623\u0633 \u0645\u0627\u0644 \u0628\u0633\u064a\u0637 \u0641\u064a 2026", "platform": "LinkedIn", "formula": "local", "dialect": "gulf"}
+[2026-04-09T12:02:21.845601] [cbf_1775736140_1xx3] [BACKEND] [BACKEND_START] get_posts with limit=50
+[2026-04-09T12:02:21.846543] [cbf_1775736140_1xx3] [BACKEND] [BACKEND_SUCCESS] Found 1 posts
+[2026-04-09T12:09:54.102768] [manual_836524] [BACKEND] [BACKEND_START] get_posts with limit=5
+[2026-04-09T12:09:54.103932] [manual_836524] [BACKEND] [BACKEND_SUCCESS] Found 0 posts
+[2026-04-09T12:09:54.916268] SUCCESS: Function get_posts completed. args={"limit": 5}
+[2026-04-09T12:10:50.234721] [manual_836561] [BACKEND] [BACKEND_START] get_posts with limit=5
+[2026-04-09T12:10:50.237922] [manual_836561] [BACKEND] [BACKEND_SUCCESS] Found 0 posts
+[2026-04-09T12:10:52.755351] SUCCESS: Function get_posts completed. args={"limit": 5}
+[2026-04-09T12:12:12.197874] [manual_836658] [BACKEND] [BACKEND_START] get_posts with limit=5
+[2026-04-09T12:12:12.201609] [manual_836658] [BACKEND] [BACKEND_SUCCESS] Found 0 posts
+[2026-04-09T12:12:12.840584] SUCCESS: Function get_posts completed. args={"limit": 5}
+[2026-04-09T12:12:38.301116] [manual_836688] [BACKEND] [BACKEND_START] get_posts with limit=5
+[2026-04-09T12:12:38.302068] [manual_836688] [BACKEND] [BACKEND_SUCCESS] Found 0 posts
+[2026-04-09T12:12:39.220330] SUCCESS: Function get_posts completed. args={"limit": 5}
+[2026-04-09T12:12:46.989726] [cbf_1775736762_bacv] [BACKEND] [BACKEND_START] get_posts with limit=50
+[2026-04-09T12:12:46.990895] [cbf_1775736762_bacv] [BACKEND] [BACKEND_SUCCESS] Found 0 posts
+[2026-04-09T12:14:39.899602] [run_1775736872_snmm] [BACKEND] [BACKEND_START] get_posts with limit=100
+[2026-04-09T12:14:39.901392] [run_1775736872_snmm] [BACKEND] [BACKEND_SUCCESS] Found 0 posts
+[2026-04-09T12:14:40.547993] SUCCESS: Function get_posts completed. args={"limit": 100}
+[2026-04-09T12:33:01.986076] [run_1775736872_snmm] [BACKEND] [BACKEND_START] get_posts with limit=100
+[2026-04-09T12:33:01.987158] [run_1775736872_snmm] [BACKEND] [BACKEND_SUCCESS] Found 0 posts
+[2026-04-09T12:33:02.306399] SUCCESS: Function get_posts completed. args={"limit": 100}
