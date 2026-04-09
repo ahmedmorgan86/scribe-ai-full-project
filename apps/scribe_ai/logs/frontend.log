@@ -1,0 +1,231 @@
+[2026-04-09T11:48:01.080Z] [manual_835071] [LOG] [STREAM_DONE]
+[2026-04-09T11:48:01.081Z] [manual_835071] [LOG] [ACTION_START] Studio Completion
+[2026-04-09T11:50:28.128Z] [manual_835364] [LOG] [FETCH_START] {
+  "func": "get_posts",
+  "module": "apps.scribe_ai.backend.main"
+}
+[2026-04-09T11:50:28.143Z] [manual_835364] [LOG] RENDER_SUCCESS_DIFFERENTIATED
+[2026-04-09T11:50:36.089Z] [manual_835364] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-09T11:50:36.092Z] [manual_835364] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0"
+  ]
+}
+[2026-04-09T11:51:03.528Z] [manual_835399] [LOG] [FETCH_START] {
+  "func": "get_posts",
+  "module": "apps.scribe_ai.backend.main"
+}
+[2026-04-09T11:51:03.590Z] [manual_835399] [LOG] RENDER_SUCCESS_DIFFERENTIATED
+[2026-04-09T11:52:08.098Z] [manual_835364] [LOG] [STREAM_START] Initiating request
+[2026-04-09T11:52:08.192Z] [manual_835364] [LOG] [STREAM_OPEN] Connected
+[2026-04-09T11:52:12.831Z] [manual_835364] [LOG] [STREAM_CHUNK] {"status":"تحليل اتجاهات السوق العربي والمنطقة...","progress":10}
+[2026-04-09T11:52:12.832Z] [manual_835364] [LOG] [STREAM_CHUNK] {"status":"تطبيق معادلة local (لهجة gulf)...","progress":25}
+[2026-04-09T11:52:12.886Z] [manual_835364] [LOG] [STREAM_CHUNK] {"status":"توليد المحتوى الإبداعي باستخدام الذكاء الاصطناعي...","progress":50}
+[2026-04-09T11:52:28.885Z] [manual_835364] [LOG] [STREAM_CHUNK] {"status":"تحليل جودة المحتوى ومعدل التفاعل المتوقع...","progress":85}
+[2026-04-09T11:52:28.886Z] [manual_835364] [LOG] [STREAM_CHUNK] {"status":"اكتمل التوليد بنجاح!","progress":100,"result":{"id":91,"content":"يقولون \"الرزق يحب الخف
+[2026-04-09T11:52:28.887Z] [manual_835364] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_posts"
+  ],
+  "cleared": 1
+}
+[2026-04-09T11:52:30.368Z] [manual_835364] [LOG] [STREAM_DONE]
+[2026-04-09T11:52:30.368Z] [manual_835364] [LOG] [ACTION_START] Studio Completion
+[2026-04-09T11:52:41.347Z] [manual_835364] [LOG] [FETCH_START] {
+  "func": "get_posts",
+  "module": "apps.scribe_ai.backend.main"
+}
+[2026-04-09T11:52:47.349Z] [manual_835364] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-09T11:52:47.351Z] [manual_835364] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1"
+  ]
+}
+[2026-04-09T11:55:54.084Z] [manual_835690] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_posts"
+  ],
+  "cleared": 0
+}
+[2026-04-09T11:55:54.093Z] [manual_835690] [LOG] [FETCH_START] {
+  "func": "get_posts",
+  "module": "apps.scribe_ai.backend.main"
+}
+[2026-04-09T11:55:54.095Z] [manual_835690] [LOG] RENDER_SUCCESS_DIFFERENTIATED
+[2026-04-09T11:56:01.916Z] [manual_835690] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-09T11:56:01.921Z] [manual_835690] [LOG] [PARSE_SUCCESS] {
+  "keys": [
+    "0",
+    "1"
+  ]
+}
+[2026-04-09T11:56:26.410Z] [manual_835722] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_posts"
+  ],
+  "cleared": 0
+}
+[2026-04-09T11:56:26.413Z] [manual_835722] [LOG] [FETCH_START] {
+  "func": "get_posts",
+  "module": "apps.scribe_ai.backend.main"
+}
+[2026-04-09T11:56:26.419Z] [manual_835722] [LOG] RENDER_SUCCESS_DIFFERENTIATED
+[2026-04-09T11:57:05.803Z] [manual_835761] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_posts"
+  ],
+  "cleared": 0
+}
+[2026-04-09T11:57:05.819Z] [manual_835761] [LOG] [FETCH_START] {
+  "func": "get_posts",
+  "module": "apps.scribe_ai.backend.main"
+}
+[2026-04-09T11:57:05.989Z] [manual_835761] [LOG] RENDER_SUCCESS_DIFFERENTIATED
+[2026-04-09T11:59:38.017Z] [manual_835913] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_posts"
+  ],
+  "cleared": 0
+}
+[2026-04-09T11:59:38.026Z] [manual_835913] [LOG] [FETCH_START] {
+  "func": "get_posts",
+  "module": "apps.scribe_ai.backend.main"
+}
+[2026-04-09T11:59:38.035Z] [manual_835913] [LOG] RENDER_SUCCESS_DIFFERENTIATED
+[2026-04-09T12:00:00.085Z] [manual_835913] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-09T12:00:00.097Z] [manual_835913] [LOG] [PARSE_SUCCESS] {
+  "keys": []
+}
+[2026-04-09T12:00:22.202Z] [manual_835957] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_posts"
+  ],
+  "cleared": 0
+}
+[2026-04-09T12:00:22.215Z] [manual_835957] [LOG] [FETCH_START] {
+  "func": "get_posts",
+  "module": "apps.scribe_ai.backend.main"
+}
+[2026-04-09T12:00:22.223Z] [manual_835957] [LOG] RENDER_SUCCESS_DIFFERENTIATED
+[2026-04-09T12:01:49.000Z] [manual_835913] [LOG] [STREAM_START] Initiating request
+[2026-04-09T12:01:50.720Z] [manual_835913] [LOG] [STREAM_OPEN] Connected
+[2026-04-09T12:01:55.592Z] [manual_835913] [LOG] [STREAM_CHUNK] {"status":"تحليل اتجاهات السوق العربي والمنطقة...","progress":10}
+[2026-04-09T12:01:55.597Z] [manual_835913] [LOG] [STREAM_CHUNK] {"status":"تطبيق معادلة local (لهجة gulf)...","progress":25}
+[2026-04-09T12:01:55.602Z] [manual_835913] [LOG] [STREAM_CHUNK] {"status":"توليد المحتوى الإبداعي باستخدام الذكاء الاصطناعي...","progress":50}
+[2026-04-09T12:02:04.335Z] [manual_835913] [LOG] [STREAM_CHUNK] {"status":"تحليل جودة المحتوى ومعدل التفاعل المتوقع...","progress":85}
+[2026-04-09T12:02:04.347Z] [manual_835913] [LOG] [STREAM_CHUNK] {"status":"اكتمل التوليد بنجاح!","progress":100,"result":{"id":1,"content":"تدري وش الفرق بين اللي ي
+[2026-04-09T12:02:04.348Z] [manual_835913] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_posts"
+  ],
+  "cleared": 1
+}
+[2026-04-09T12:02:05.386Z] [manual_835913] [LOG] [STREAM_DONE]
+[2026-04-09T12:02:05.386Z] [manual_835913] [LOG] [ACTION_START] Studio Completion
+[2026-04-09T12:09:48.387Z] [manual_836524] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_posts"
+  ],
+  "cleared": 0
+}
+[2026-04-09T12:09:48.391Z] [manual_836524] [LOG] [FETCH_START] {
+  "func": "get_posts",
+  "module": "apps.scribe_ai.backend.main"
+}
+[2026-04-09T12:09:48.393Z] [manual_836524] [LOG] RENDER_SUCCESS_DIFFERENTIATED
+[2026-04-09T12:09:55.590Z] [manual_836524] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-09T12:09:55.592Z] [manual_836524] [LOG] [PARSE_SUCCESS] {
+  "keys": []
+}
+[2026-04-09T12:10:27.986Z] [manual_836561] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_posts"
+  ],
+  "cleared": 0
+}
+[2026-04-09T12:10:28.036Z] [manual_836561] [LOG] [FETCH_START] {
+  "func": "get_posts",
+  "module": "apps.scribe_ai.backend.main"
+}
+[2026-04-09T12:10:28.118Z] [manual_836561] [LOG] RENDER_SUCCESS_DIFFERENTIATED
+[2026-04-09T12:12:02.895Z] [manual_836658] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_posts"
+  ],
+  "cleared": 0
+}
+[2026-04-09T12:12:02.899Z] [manual_836658] [LOG] [FETCH_START] {
+  "func": "get_posts",
+  "module": "apps.scribe_ai.backend.main"
+}
+[2026-04-09T12:12:02.901Z] [manual_836658] [LOG] RENDER_SUCCESS_DIFFERENTIATED
+[2026-04-09T12:12:32.576Z] [manual_836688] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_posts"
+  ],
+  "cleared": 0
+}
+[2026-04-09T12:12:32.577Z] [manual_836688] [LOG] [FETCH_START] {
+  "func": "get_posts",
+  "module": "apps.scribe_ai.backend.main"
+}
+[2026-04-09T12:12:32.578Z] [manual_836688] [LOG] RENDER_SUCCESS_DIFFERENTIATED
+[2026-04-09T12:12:39.894Z] [manual_836688] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-09T12:12:39.895Z] [manual_836688] [LOG] [PARSE_SUCCESS] {
+  "keys": []
+}
+[2026-04-09T12:14:34.217Z] [run_1775736872_snmm] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_posts"
+  ],
+  "cleared": 3
+}
+[2026-04-09T12:14:34.217Z] [run_1775736872_snmm] [LOG] [FETCH_START] {
+  "func": "get_posts",
+  "module": "apps.scribe_ai.backend.main"
+}
+[2026-04-09T12:14:34.221Z] [run_1775736872_snmm] [LOG] RENDER_SUCCESS_DIFFERENTIATED
+[2026-04-09T12:14:40.826Z] [run_1775736872_snmm] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-09T12:14:40.827Z] [run_1775736872_snmm] [LOG] [PARSE_SUCCESS] {
+  "keys": []
+}
+[2026-04-09T12:32:57.657Z] [run_1775736872_snmm] [LOG] [CACHE_INVALIDATE] {
+  "funcs": [
+    "get_posts"
+  ],
+  "cleared": 1
+}
+[2026-04-09T12:32:57.657Z] [run_1775736872_snmm] [LOG] [FETCH_START] {
+  "func": "get_posts",
+  "module": "apps.scribe_ai.backend.main"
+}
+[2026-04-09T12:32:57.658Z] [run_1775736872_snmm] [LOG] RENDER_SUCCESS_DIFFERENTIATED
+[2026-04-09T12:33:02.473Z] [run_1775736872_snmm] [LOG] [FETCH_RESPONSE] {
+  "status": 200,
+  "contentType": "application/json"
+}
+[2026-04-09T12:33:02.474Z] [run_1775736872_snmm] [LOG] [PARSE_SUCCESS] {
+  "keys": []
+}
