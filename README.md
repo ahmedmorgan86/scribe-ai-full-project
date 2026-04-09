@@ -384,4 +384,4 @@ npm run validate:llm-config # Validate LLM routing configuration
 
 ## License
 
-Ahmed Morgan
+[MIT](LICENSE) - Dominik Tsatskin
