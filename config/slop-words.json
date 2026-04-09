@@ -1,0 +1,53 @@
+{
+  "_description": "AI-generated phrases that trigger automatic rejection. These are maintained in src/lib/slop/phrase-blacklist.ts - this file is a reference copy.",
+  "categories": {
+    "ai_conversation_starters": [
+      "let's dive in",
+      "let's explore",
+      "let's break this down",
+      "let's unpack",
+      "let me explain"
+    ],
+    "generic_openers": [
+      "here's the thing",
+      "here's why",
+      "here's what",
+      "the thing is"
+    ],
+    "hype_words": [
+      "game-changer",
+      "revolutionary",
+      "groundbreaking",
+      "mind-blowing"
+    ],
+    "clickbait": [
+      "hot take:",
+      "unpopular opinion:",
+      "buckle up",
+      "you won't believe"
+    ],
+    "corporate_speak": [
+      "secret sauce",
+      "unlock",
+      "unleash",
+      "leverage",
+      "synergy",
+      "paradigm shift",
+      "deep dive",
+      "level up",
+      "disrupt",
+      "empower"
+    ],
+    "performative": [
+      "i firmly believe",
+      "in my humble opinion",
+      "allow me to"
+    ],
+    "filler_conclusions": [
+      "food for thought",
+      "just my two cents",
+      "let that sink in",
+      "think about it"
+    ]
+  }
+}
