@@ -1,0 +1,93 @@
+version: "3.8"
+
+# Python Workers Docker Compose
+# All Python worker services for ai-social-engine
+
+services:
+  # LiteLLM Gateway - Multi-provider LLM routing
+  litellm-gateway:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        WORKER_TYPE: litellm
+    container_name: ai-social-engine-litellm
+    ports:
+      - "8001:8001"
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - LITELLM_PORT=8001
+      - LITELLM_VERBOSE=${LITELLM_VERBOSE:-false}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8001/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - ai-social-engine
+
+  # LangGraph Worker - Content generation pipeline
+  langgraph-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        WORKER_TYPE: langgraph
+    container_name: ai-social-engine-langgraph
+    ports:
+      - "8002:8002"
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - QDRANT_URL=${QDRANT_URL:-http://qdrant:6333}
+      - QDRANT_API_KEY=${QDRANT_API_KEY}
+      - LITELLM_GATEWAY_URL=${LITELLM_GATEWAY_URL:-http://litellm-gateway:8001}
+      - USE_LITELLM_GATEWAY=${USE_LITELLM_GATEWAY:-true}
+      - NEXTJS_URL=${NEXTJS_URL:-http://host.docker.internal:3000}
+      - LANGGRAPH_WORKER_PORT=8002
+      - DATA_DIR=/app/data
+      - LOG_LEVEL=${LOG_LEVEL:-info}
+    volumes:
+      - langgraph-data:/app/data
+    depends_on:
+      litellm-gateway:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8002/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - ai-social-engine
+
+  # Stylometry Worker - Voice stylometric analysis
+  stylometry-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        WORKER_TYPE: stylometry
+    container_name: ai-social-engine-stylometry
+    ports:
+      - "8003:8003"
+    environment:
+      - STYLOMETRY_WORKER_PORT=8003
+      - LOG_LEVEL=${LOG_LEVEL:-info}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8003/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - ai-social-engine
+
+networks:
+  ai-social-engine:
+    driver: bridge
+
+volumes:
+  langgraph-data:
