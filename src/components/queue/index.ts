@@ -1,0 +1,1 @@
+export { ExpandedPostDetail } from './ExpandedPostDetail';
